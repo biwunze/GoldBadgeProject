@@ -1,0 +1,6 @@
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_Repo\bin\Debug\GoldBadge_02_Repo.dll
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_Repo\bin\Debug\GoldBadge_02_Repo.pdb
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_Repo\obj\Debug\GoldBadge_02_Repo.csprojAssemblyReference.cache
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_Repo\obj\Debug\GoldBadge_02_Repo.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_Repo\obj\Debug\GoldBadge_02_Repo.dll
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_Repo\obj\Debug\GoldBadge_02_Repo.pdb

@@ -1,0 +1,12 @@
+C:\ElevenFiftyPjt\CSharpFundamentals\GoldBade_01_Repo\bin\Debug\GoldBade_01_Repo.dll
+C:\ElevenFiftyPjt\CSharpFundamentals\GoldBade_01_Repo\bin\Debug\GoldBade_01_Repo.pdb
+C:\ElevenFiftyPjt\CSharpFundamentals\GoldBade_01_Repo\obj\Debug\GoldBadge_01_Repository.csprojAssemblyReference.cache
+C:\ElevenFiftyPjt\CSharpFundamentals\GoldBade_01_Repo\obj\Debug\GoldBadge_01_Repository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyPjt\CSharpFundamentals\GoldBade_01_Repo\obj\Debug\GoldBade_01_Repo.dll
+C:\ElevenFiftyPjt\CSharpFundamentals\GoldBade_01_Repo\obj\Debug\GoldBade_01_Repo.pdb
+C:\ElevenFiftyPjt\GoldBadge\GoldBade_01_Repo\bin\Debug\GoldBade_01_Repo.dll
+C:\ElevenFiftyPjt\GoldBadge\GoldBade_01_Repo\bin\Debug\GoldBade_01_Repo.pdb
+C:\ElevenFiftyPjt\GoldBadge\GoldBade_01_Repo\obj\Debug\GoldBadge_01_Repository.csprojAssemblyReference.cache
+C:\ElevenFiftyPjt\GoldBadge\GoldBade_01_Repo\obj\Debug\GoldBadge_01_Repository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyPjt\GoldBadge\GoldBade_01_Repo\obj\Debug\GoldBade_01_Repo.dll
+C:\ElevenFiftyPjt\GoldBadge\GoldBade_01_Repo\obj\Debug\GoldBade_01_Repo.pdb

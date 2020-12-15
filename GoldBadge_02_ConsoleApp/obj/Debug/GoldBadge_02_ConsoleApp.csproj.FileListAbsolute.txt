@@ -1,0 +1,10 @@
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_ConsoleApp\bin\Debug\GoldBadge_02_ConsoleApp.exe.config
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_ConsoleApp\bin\Debug\GoldBadge_02_ConsoleApp.exe
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_ConsoleApp\bin\Debug\GoldBadge_02_ConsoleApp.pdb
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_ConsoleApp\bin\Debug\GoldBadge_02_Repo.dll
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_ConsoleApp\bin\Debug\GoldBadge_02_Repo.pdb
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_ConsoleApp\obj\Debug\GoldBadge_02_ConsoleApp.csprojAssemblyReference.cache
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_ConsoleApp\obj\Debug\GoldBadge_02_ConsoleApp.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_ConsoleApp\obj\Debug\GoldBadge_02_ConsoleApp.csproj.CopyComplete
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_ConsoleApp\obj\Debug\GoldBadge_02_ConsoleApp.exe
+C:\ElevenFiftyPjt\GoldBadge\GoldBadge_02_ConsoleApp\obj\Debug\GoldBadge_02_ConsoleApp.pdb

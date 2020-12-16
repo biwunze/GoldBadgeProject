@@ -85,5 +85,20 @@ namespace GoldBadge_01_Test
             //Assert
             Assert.AreEqual(mealTestCont, mealByNum);
         }
+
+        [TestMethod]
+        public void TestForGetMealByNum2()
+        {
+            MealContentRepo mealTestRepo = new MealContentRepo();           //Extra test
+            MealContent mealTestCont = new MealContent();
+            mealTestRepo.AddMealToMenuList(mealTestCont);
+
+            //Act
+            MealContent mealByNum = mealTestRepo.GetMealByMealNumber(mealTestCont.MealNumber);
+
+            bool menuNumsAreEqual = mealTestCont.MealName == mealByNum.MealName;
+
+            Assert.IsTrue(menuNumsAreEqual);
+        }
     }
 }

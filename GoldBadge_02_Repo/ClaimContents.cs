@@ -19,8 +19,8 @@ namespace GoldBadge_02_Repo
         public ClaimType TypeOfClaim { get; set; }
         public string ClaimDescription { get; set; }
         public double ClaimAmount { get; set; }
-        public DateTime DateOfIncident { get; set; }        //public string DateOfIncident { get; set; }
-        public DateTime DateOfClaim { get; set; }             //public string DateOfClaim { get; set; }
+        public DateTime DateOfIncident { get; set; }
+        public DateTime DateOfClaim { get; set; }
         public bool IsValid { get; set; }
 
         public ClaimContents() { }
@@ -35,5 +35,7 @@ namespace GoldBadge_02_Repo
             DateOfClaim = dateOfClaim;
             IsValid = isValid;
         }
+
+        
     }
 }

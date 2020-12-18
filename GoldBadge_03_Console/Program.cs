@@ -10,6 +10,8 @@ namespace GoldBadge_03_Console
     {
         static void Main(string[] args)
         {
+            BadgeProgramUI program = new BadgeProgramUI();
+            program.Run();
         }
     }
 }

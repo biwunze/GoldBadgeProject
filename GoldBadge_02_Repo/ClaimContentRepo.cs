@@ -8,7 +8,7 @@ namespace GoldBadge_02_Repo
 {
     public class ClaimContentRepo
     {
-        Queue<ClaimContents> _listOfClaimsQ = new Queue<ClaimContents>();       // Q variable.  May need private.
+        private Queue<ClaimContents> _listOfClaimsQ = new Queue<ClaimContents>();
 
         // CRUD
         // Create
@@ -17,6 +17,15 @@ namespace GoldBadge_02_Repo
             _listOfClaimsQ.Enqueue(claim);
             //Queue.enqueue(claim);
         }
+
+        /*public void SeeTheNextOne()
+        {
+            Console.Clear();
+            Que
+            //ClaimContents nextClaim = _listOfClaimsQ.Peek();
+            
+            
+        }*/
 
         // Read
         public Queue<ClaimContents> GetListOfClaims()
@@ -47,9 +56,18 @@ namespace GoldBadge_02_Repo
             {
                 return false;
             }
+
+            /*ClaimContents claim = GetClaimByClaimID(claimID);
+            if (_listOfClaimsQ.Dequeue(claim))
+            {
+                return true;
+            }
+            return false;*/
         }
 
         // Helper?
+
+
         public ClaimContents GetClaimByClaimID(int claimID)
         {
             foreach(ClaimContents claim in _listOfClaimsQ)
@@ -59,10 +77,7 @@ namespace GoldBadge_02_Repo
                     return claim;
                 }
             }
-
             return null;
         }
-
-        //public DateTime dat = new DateTime()
     }
 }

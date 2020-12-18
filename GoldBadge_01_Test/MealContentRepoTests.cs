@@ -26,7 +26,7 @@ namespace GoldBadge_01_Test
         {
             // Arrange = Setting up the playing field
             MealContent meal = new MealContent();
-            meal.MealNumber = 7;
+            //meal.MealNumber = 7;
             MealContentRepo repo = new MealContentRepo();
 
             // Act = Get/run the code we want to test

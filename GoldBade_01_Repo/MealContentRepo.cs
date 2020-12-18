@@ -10,7 +10,6 @@ namespace GoldBadge_01_Repository
     {
         private List<MealContent> _listOfMeals = new List<MealContent>();
 
-        //CRUD
         public void AddMealToMenuList(MealContent meal)
         {
             _listOfMeals.Add(meal);
@@ -20,31 +19,6 @@ namespace GoldBadge_01_Repository
         {
             return _listOfMeals;
         }
-
-        /*Update **EXTRA**
-        public bool UpdateMealsOnMenu(int firstMealNumber, MealContent newMealContent)
-        {
-            //Find Meal
-            MealContent firstMealForm = GetMealByMealNumber(firstMealNumber);
-
-            //Update Meal
-            if (firstMealForm != null)
-            {
-                //Assign new properties
-                firstMealForm.MealNumber = newMealContent.MealNumber;
-                firstMealForm.MealName = newMealContent.MealName;
-                firstMealForm.MealDescription = newMealContent.MealDescription;
-                firstMealForm.Price = newMealContent.Price;
-                firstMealForm.TypeOfMeal = newMealContent.TypeOfMeal;
-
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-
-        }*/
 
         public bool DeleteMeal(int mealNumber)
         {
@@ -68,7 +42,6 @@ namespace GoldBadge_01_Repository
             }
         }
 
-        //Get by #
         public MealContent GetMealByMealNumber(int mealNumber)
         {
             foreach(MealContent meal in _listOfMeals)

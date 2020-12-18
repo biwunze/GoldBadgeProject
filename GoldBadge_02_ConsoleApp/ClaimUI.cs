@@ -9,7 +9,6 @@ namespace GoldBadge_02_ConsoleApp
 {
     class ClaimUI
     {
-        //Private Queue<ClaimContents> _listOfClaimsQ = new Queue<ClaimContents>();
         private ClaimContentRepo _claimContentRepo = new ClaimContentRepo();
         public Queue<ClaimContents> _listOfClaimsQ = new Queue<ClaimContents>();
         public void RunClaims()
@@ -35,7 +34,6 @@ namespace GoldBadge_02_ConsoleApp
                 {
                     case "1":
                         SeeAllClaims();
-                        //SeeTheNewQ();
                         break;
                     case "2":
                         NextClaim();
@@ -57,8 +55,7 @@ namespace GoldBadge_02_ConsoleApp
             }
         }
 
-        // See all claims
-        private void SeeAllClaims()                     //Need to figure out alignment
+        private void SeeAllClaims()
         {
             Console.Clear();
             Queue<ClaimContents> _listOfClaimsQ = _claimContentRepo.GetListOfClaims();
@@ -67,24 +64,9 @@ namespace GoldBadge_02_ConsoleApp
             foreach (ClaimContents claim in _listOfClaimsQ)
             {
                 Console.WriteLine($"    {claim.ClaimID}    {claim.TypeOfClaim}      {claim.ClaimDescription}     {claim.ClaimAmount}      {claim.DateOfIncident}      {claim.DateOfClaim}         {claim.IsValid}");
-
-                /*Console.WriteLine($"ClaimID: {claim.ClaimID}\n" +
-                    $"Type: {claim.TypeOfClaim}\n" +
-                    $"Description: {claim.ClaimDescription}\n" +
-                    $"Amount: {claim.ClaimAmount}\n" +
-                    $"DateOfAccident: {claim.DateOfIncident}\n" +
-                    $"DateOfClaim: {claim.DateOfClaim}\n" +
-                    $"IsValid: {claim.IsValid}\n");*/
             }
-
-
-            /*foreach(var claim in _listOfClaimsQ)
-            {
-                Console.WriteLine(claim);
-            }*/
         }
 
-        // Next claim
         private void NextClaim()
         {
 
@@ -110,20 +92,12 @@ namespace GoldBadge_02_ConsoleApp
                 }
                 _listOfClaimsQ.Peek();
                 Console.Clear();
-
             }
-            
-            
-            //Console.WriteLine(_listOfClaimsQ.Peek());
-
-            //Console.WriteLine("")
         }
 
-        // New claim
         private void CreateAClaim()                                         
         {
             Console.Clear();
-            //Queue<ClaimContents> newClaims = new Queue<ClaimContents>();
             ClaimContents newClaim = new ClaimContents();
 
             Console.WriteLine("Please enter the Claim ID number:");
@@ -150,8 +124,6 @@ namespace GoldBadge_02_ConsoleApp
             string doaAsString = Console.ReadLine();
             newClaim.DateOfIncident = DateTime.Parse(doaAsString);
 
-            //newClaim.DateOfIncident = DateTime.Parse(doaAsString);
-
             Console.WriteLine("When was the claim recieved? ex: (5/20/2018)");
             string docAsString = Console.ReadLine();
             newClaim.DateOfClaim = DateTime.Parse(docAsString);
@@ -169,10 +141,6 @@ namespace GoldBadge_02_ConsoleApp
             }
 
             _claimContentRepo.AddClaimToQue(newClaim);
-
-            //_listOfClaimsQ.Enqueue(newClaim);
-
-            //CLaimID Type Description Amount DateOfAccident DateOfClaim IsValid
         }
 
         public void QClaimSeeds()
@@ -185,14 +153,6 @@ namespace GoldBadge_02_ConsoleApp
             _claimContentRepo.AddClaimToQue(claimOne);
             _claimContentRepo.AddClaimToQue(claimOTwo);
             _claimContentRepo.AddClaimToQue(claimThree);
-
-            /*_listOfClaimsQ.Enqueue(claimOne);
-            _listOfClaimsQ.Enqueue(claimOTwo);
-            _listOfClaimsQ.Enqueue(claimThree);/*
-
-            _listOfClaimsQ.Enqueue(claimOne);
-            _listOfClaimsQ.Enqueue(claimOTwo);
-            _listOfClaimsQ.Enqueue(claimThree);*/
         }
     }
 }

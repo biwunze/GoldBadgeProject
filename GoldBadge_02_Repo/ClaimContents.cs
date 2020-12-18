@@ -35,7 +35,5 @@ namespace GoldBadge_02_Repo
             DateOfClaim = dateOfClaim;
             IsValid = isValid;
         }
-
-        
     }
 }
